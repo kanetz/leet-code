@@ -1,4 +1,4 @@
-package binary_tree_right_side_view;
+package common;
 
 public class TreeNode {
     public int val;
@@ -7,5 +7,12 @@ public class TreeNode {
 
     public TreeNode(int x) {
         val = x;
+    }
+
+    @Override
+    public String toString() {
+        return "TreeNode{" +
+                "val=" + val +
+                '}';
     }
 }

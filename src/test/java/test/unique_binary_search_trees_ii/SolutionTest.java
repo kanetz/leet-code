@@ -3,7 +3,7 @@ package test.unique_binary_search_trees_ii;
 import org.junit.Before;
 import org.junit.Test;
 import unique_binary_search_trees_ii.Solution;
-import unique_binary_search_trees_ii.TreeNode;
+import common.TreeNode;
 
 import java.util.List;
 

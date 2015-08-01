@@ -1,7 +1,7 @@
 package test.binary_tree_right_side_view;
 
 import binary_tree_right_side_view.Solution;
-import binary_tree_right_side_view.TreeNode;
+import common.TreeNode;
 import org.junit.Before;
 import org.junit.Test;
 

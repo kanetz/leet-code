@@ -1,5 +1,7 @@
 package validate_binary_search_tree;
 
+import common.TreeNode;
+
 public class Solution {
     public boolean isValidBST(TreeNode root) {
         return isValidBSTRecursive(root, null, null);

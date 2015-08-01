@@ -3,7 +3,7 @@ package test.sort_list;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import sort_list.ListNode;
+import common.ListNode;
 import sort_list.Solution;
 
 import java.util.Arrays;

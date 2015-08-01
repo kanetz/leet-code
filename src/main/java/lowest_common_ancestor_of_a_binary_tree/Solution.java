@@ -1,6 +1,7 @@
 package lowest_common_ancestor_of_a_binary_tree;
 
 import java.util.*;
+import common.TreeNode;
 
 public class Solution {
 

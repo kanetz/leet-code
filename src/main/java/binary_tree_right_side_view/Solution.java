@@ -1,5 +1,7 @@
 package binary_tree_right_side_view;
 
+import common.TreeNode;
+
 import java.util.*;
 
 public class Solution {

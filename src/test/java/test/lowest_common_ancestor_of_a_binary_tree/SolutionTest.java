@@ -1,7 +1,7 @@
 package test.lowest_common_ancestor_of_a_binary_tree;
 
 import lowest_common_ancestor_of_a_binary_tree.Solution;
-import lowest_common_ancestor_of_a_binary_tree.TreeNode;
+import common.TreeNode;
 import org.junit.Before;
 import org.junit.Test;
 

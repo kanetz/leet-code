@@ -1,5 +1,7 @@
 package sort_list;
 
+import common.*;
+
 public class Solution {
 
     public ListNode sortList(ListNode head) {
