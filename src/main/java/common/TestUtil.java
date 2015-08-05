@@ -1,5 +1,8 @@
 package common;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class TestUtil {
 
     public static ListNode makeList(int[] input) {
@@ -28,5 +31,30 @@ public class TestUtil {
         }
 
         return result;
+    }
+
+    public static TreeNode makeTree(Integer[] input) {
+        TreeNode nil = new TreeNode(Integer.MIN_VALUE);
+        List<TreeNode> list = new LinkedList<>();
+        TreeNode root = new TreeNode(input[0]);
+        list.add(root);
+
+        for(int i = 1; i < input.length; i++) {
+            Integer val = input[i];
+            TreeNode n = val == null ? nil : new TreeNode(val.intValue());
+
+            TreeNode p = list.get(0);
+            if(p.left == null) p.left = n;
+            else {
+                p.right = n;
+                list.remove(p);
+                if(p.left == nil) p.left = null;
+                if(p.right == nil) p.right = null;
+            }
+
+            if(n != nil) list.add(n);
+        }
+
+        return root;
     }
 }
